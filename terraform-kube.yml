@@ -1,0 +1,8 @@
+- task: TerraformTaskV1@0
+  inputs:
+    provider: 'azurerm'
+    command: 'init'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure'
+    backendServiceArm: 'Azure subscription 1(1968515e-dc9e-43c7-949c-abc92f356ae1)'
+    backendAzureRmResourceGroupName: 'aks-getting-started'
+    backendAzureRmStorageAccountName: 'kubedafe'
