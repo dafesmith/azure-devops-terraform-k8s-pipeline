@@ -6,3 +6,5 @@
     backendServiceArm: 'Azure subscription 1(1968515e-dc9e-43c7-949c-abc92f356ae1)'
     backendAzureRmResourceGroupName: 'aks-getting-started'
     backendAzureRmStorageAccountName: 'kubedafe'
+    backendAzureRmContainerName: 'dafedev'
+    backendAzureRmKey: 'k8.tfstate'
